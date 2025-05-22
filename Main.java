@@ -26,7 +26,7 @@ public class Main
     public static void main(String[] args)
     {
         //ascii art credit: http://www.oocities.org/spunk1111/bodypart.htm
-        
+
 
         //DECLARATION SECTION
         //complete fields
@@ -53,15 +53,15 @@ public class Main
         termsAndConditions = UtilityBelt.readString("Enter terms and conditions",0,50);
 
         sex = UtilityBelt.readChar("Enter sex","FfMmnNIi");
-        
+
         birthMonth = UtilityBelt.readString("Enter birth month",3,3);
         birthDay = UtilityBelt.readInt("Enter birth day: ",1,30);
         birthYear = UtilityBelt.readInt("Enter birth year: ",1700,2025);
-        
+
         validMonth = UtilityBelt.readInt("Enter valid month: ",1,12);
         validDay = UtilityBelt.readInt("Enter valid day: ",1,30);
         validYear = UtilityBelt.readInt("Enter valid year: ",1700,2025);
-        
+
         expireMonth = UtilityBelt.readInt("Enter expiration month: ",1,12);
         expireDay = UtilityBelt.readInt("Enter expiration day: ",1,30);
         expireYear = UtilityBelt.readInt("Enter expiration year: ",1700,2025);
@@ -110,7 +110,6 @@ public static String formatDate(int month, int day, int year)
     {
     return String.format("%02d/%02d/%4d", month, day, year);
     }
-    
 
 
 }
