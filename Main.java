@@ -111,9 +111,6 @@ public static String formatDate(int month, int day, int year)
     return String.format("%02d/%02d/%4d", month, day, year);
     }
     
-    {
-    public static String formatDate(int month, int day, int year)
-    return "";
-    }
+
 
 }
