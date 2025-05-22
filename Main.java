@@ -54,7 +54,7 @@ public class Main
 
         sex = UtilityBelt.readChar("Enter sex","FfMmnNIi");
         
-        birthMonth = UtilityBelt.readString("Enter birth month",3,3)
+        birthMonth = UtilityBelt.readString("Enter birth month",3,3);
         birthDay = UtilityBelt.readInt("Enter birth day: ",1,30);
         birthYear = UtilityBelt.readInt("Enter birth year: ",1700,2025);
         
@@ -106,14 +106,14 @@ public static void formatCard(String surname, String givenName,
         System.out.printf("╚══════════════════════════════════════════════════════════════════════╝%n");
 
     }
-public static String formatDate(int month, int day, int year){
+public static String formatDate(int month, int day, int year)
+    {
     return String.format("%02d/%02d/%4d", month, day, year);
     }
     
-}
+    {
     public static String formatDate(int month, int day, int year)
     return "";
-    {
-
     }
+
 }
